@@ -1,5 +1,5 @@
 # AVR test code for YM2612
-## by Fabien Batteix
+## by Fabien Batteix (alias SkyWodd)
 
 ---
 ### Overview
@@ -24,11 +24,11 @@ This program configure the YM2612 to sound like a "grand piano" and play note on
 | IC         | PC5               | A5              |
 | CS         | PC4               | A4              |
 | WR         | PC3               | A3              |
-| RD         | PC2               | A2              |
 | A0         | PC1               | A1              |
+| RD         | PC2               | A2              |
 | A1         | PC0               | A0              |
 | D0~D7      | Whole PORT D      | D0 to D7        |
-| MCLOCK     | PB1 = OC1A        | pin D9          |
+| MCLOCK     | PB1 = OC1A        | D9              |
 
 **BIG WARNING FOR ARDUINO USERS**
 
