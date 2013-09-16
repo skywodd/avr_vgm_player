@@ -9,12 +9,14 @@ This program configure the YM2612 to sound like a "grand piano" and play note on
 
 * For more informations about wiring please see: http://en.wikipedia.org/wiki/Yamaha_YM2612
 * For more informations about YM2612 registers please see: http://www.smspower.org/maxim/Documents/YM2612
-
 ---
 ### Remarks
 
 * This test code is heavly based on Furrtek's YM2612 test code. Big thanks Furrtek for the help !
 * This test code is made to run on an ATmega328/ATmega168 mcu with a 16MHz external crystal.
+
+* Operators are in order: 1, 3, 2, 4, not 1, 2, 3, 4 (thanks Furrtek for the information !) ...
+* Note on / note off channels are REALLY in order: ch1=0, ch2=1, ch3=2, ch4=4, ch5=5, ch6=6 (no 3) deal with it !
  
 ---
 ### Pinmap (Arduino UNO compatible)
